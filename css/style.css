@@ -1,0 +1,160 @@
+﻿/*Form Style*/
+#container{
+	font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 5px 30px 20px 30px;
+    background: #F7F7F7;
+	border-color: #7456D8;
+	border-style:double;
+	border-radius: 12px;
+}
+
+#container h1{
+	margin: 10px 5px 0px 5px;	
+    font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+#container p{
+	margin: 10px 5px 0px 5px;		
+	font-size: 12px;	
+}
+
+#container span{
+	color: #FF0000;
+}
+
+#accountInfo, #personalInfo, #productInfo legend{
+  font-size: 14px;
+  font-weight: bold;  
+  text-align: left;
+}
+
+#accountInfo, #personalInfo, #productInfo fieldset{
+	margin: 20px 10px 5px 5px;
+ }
+
+/*Account Information Style*/
+#accountInfo label{
+	margin: 50px 5px 0px 5px;
+	font-weight: normal;
+	font-size: 12px;	
+}
+
+#accountInfo input#emailAddress{
+	margin: 10px 10px 5px 5px;
+	width: 255px;
+}
+
+#accountInfo input#password{
+	margin: 10px 0px 5px 5px;
+	width: 145px;
+}
+
+/*Personal Information Style*/
+#personalInfo label{
+	margin: 0px 2px 0px 0px;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+#personalInfo input{
+	margin: 10px 5px 5px 5px;
+}
+
+#personalInfo select{
+	margin: 0px 10px 0px 0px;	
+}
+
+#personalInfo text{
+	width: 2px;
+}
+
+#personalInfo input#firstName{
+	margin: 10px 10px 5px 5px;
+	width: 160px;
+}
+
+#personalInfo input#middleInitial{
+	width: 15px;
+}
+
+#personalInfo input#lastName{
+	width: 160px;
+}
+
+#personalInfo input#address{
+	width: 400px;
+}
+
+#personalInfo input#city{
+	width: 168px;
+}
+
+#personalInfo input#zipcode{
+	width: 40px;
+}
+
+#personalInfo input#state{
+}
+
+/*Product Information Style*/
+#productInfo label {
+	margin: 10px 2px 0px 0px;
+	display: block;
+	font-size: 12px;
+	white-space:nowrap;
+}
+
+#productInfo input#returnItem{
+	margin: 0px 5px 0px 5px;
+}
+
+#productInfo input{
+	margin: 10px 5px 10px 5px;
+	display: inline;
+    white-space:normal;	
+}
+
+#productInfo input[type="radio"]{
+	margin: 0px 0px 0px 5px;	
+}
+
+#productInfo label#labelReasonForReuturn{
+	margin: 20px 5px 5px 5px;			
+}
+
+#productInfo select#reasonReturn{
+	margin: 0px 5px 0px 5px;	
+}
+
+#productInfo textarea#reasonForReturn{
+	margin: 0px 5px 0px 5px;		
+}
+
+/*Terms Information Style*/
+#terms h2{
+	margin: 20px 0px 10px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#terms label{
+	margin: 5px 0px 0px 15px;
+	font-weight: normal;
+	font-size: 12px;	
+}
+
+#terms input[type=checkbox]{
+	margin: 20px 0px 20px 30px;
+}
+
+#terms input[type=submit]{
+	margin: 15px 400px 0px 30px;
+    cursor:pointer;
+}
+
+#terms input[type=reset]{
+	margin: 15px 0px 0px 0px;
+    cursor:pointer;
+}
